@@ -163,23 +163,6 @@ body{
 	color: #8F2323;
 }
 
-.service-icon1{
-	margin-right: 20vh;
-}
-
-.service-icon2{
-	margin-right: 20vh;
-}
-
-.service-icon4{
-	margin-right: 20vh;
-
-}
-
-.service-icon5{
-	margin-right: 20vh;
-}
-
 .service-description{
 	text-align: center;
 	color: #8F2323;
@@ -187,6 +170,7 @@ body{
 
 .map{
 	text-align: center;
+	color: #8F2323;
 }
 
 .mapp{
@@ -230,13 +214,6 @@ body{
 		width: 100%;
 	}
 
-	.banner{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding-top: 20px;
-	}
-
 	.banner .banner-img{
 		position: static;
 		/*margin-left: auto;*/
@@ -255,6 +232,10 @@ body{
 }
 
 @media screen and (max-width: 668px){
+	.header{
+		padding-top: 50px;
+	}
+
 	.header .menu ul{
 		display: none;
 	}
@@ -264,18 +245,20 @@ body{
 		width: 40px;
 		height: 32px;
 		position: absolute;
-		top: -7px;
-		left: -5px;
+		top: -40px;
+		left: 48%;
 		opacity: 0;
 		z-index: 2;
 	}
 
 	.header .menu span{
 		display: block;
-		width: 33px;
+		width: 30px;
 		height: 4px;
 		margin-bottom: 5px;
 		position: relative;
+		top: -40px;
+		left: 50%;
 		background-color: #C67382;
 		border-radius: 3px;
 		z-index: 1;
@@ -283,6 +266,10 @@ body{
 
 	.header .menu input:checked ~ ul{
 		display: block;
+		position: absolute;
+		margin-right: 40%;
+		top: -25px;
+		font-size: 12px;
 	}
 
 	.banner .banner-img img{
@@ -292,4 +279,50 @@ body{
 	.service{
 		width: 100%;
 	}
+
+	.banner-title{
+	font: 190% serif;
+	}
+
+	.banner-title2{
+		font: 191% serif;
+	}
+
+	.banner-content{
+		font: 140% serif;
+	}
+
+	.banner-content2{
+		font: 141% serif;
+	}
+
+	.imgMc{
+		height: 30vh;
+	}
+
+	.content{
+		margin-top: 10px;
+	}
+
+	.not{
+		width: 80%;
+		height: 10vh;
+	}
+
+	.services h2{
+		font-size: 25px;
+	}
+
+	.service-description{
+		font-size: 10px;
+	}
+
+	.map{
+		font-size: 10px;
+	}
+
+	.footer{
+		margin-top: 30px;
+	}
+
 }
