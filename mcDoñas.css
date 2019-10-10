@@ -191,15 +191,6 @@ body{
 }
 
 @media screen and (max-width: 1023px){
-	/*.banner-img{
-		position: relative;
-		top: 0;
-		text-align: center;
-	}
-
-	.banner-img img{
-		width: 400px;
-	}*/
 
 	.header{
 		height: auto;
@@ -216,7 +207,6 @@ body{
 
 	.banner .banner-img{
 		position: static;
-		/*margin-left: auto;*/
 	}
 }
 
@@ -228,6 +218,46 @@ body{
 
 	.service{
 		width: 45%;
+	}
+
+	.imgMc{
+		height: 10vh;
+	}
+
+	.banner-title{
+	font: 290% serif;
+	top: 40vh;
+    left: 50%;
+	}
+
+	.banner-title2{
+		font: 291% serif;
+		top: 41vh;
+    	left: 49.9%;
+	}
+
+	.banner-content{
+		font: 240% serif;
+		top: 60vh;
+   		left: 50%;
+	}
+
+	.banner-content2{
+		font: 241% serif;
+		top: 61vh;
+    left: 49.9%;
+	}
+
+	.content{
+		margin-top: 10px;
+	}
+
+	.header .menu{
+		left: 0;
+	}
+
+	.header .menu ul{
+		font-size: 16px;
 	}
 }
 
